@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Assignment3
+    </title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+
+        .left-panel {
+            /* height: 100vh; */
+        }
+
+        .right-panel {
+            background-color: #9ee4d4;
+            /* height: 600px; */
+        }
+
+        body {
+            margin: 0px;
+        }
+        li{
+            background-color:white
+        }
+        .box div {
+            width: 100%;
+            height: 600px;
+        }
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="left-panel" style="width: 50%">
+            <div class="flex-container">
+                <div class="left-panel" style="background-color: greenyellow; width: 50%">
+                    <div class="box">
+                        <ul>
+                            <Li>
+                                Admission
+                            </Li>
+                            <li>
+                                Examination
+                            </li>
+                            <li>
+                                Finance & Account
+                            </li>
+                            <li>
+                                Administrations
+                            </li>
+                            <li>
+                                Research
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-panel" style="background-color: pink; width: 50%">
+                    <div class="box">
+                        <ol >
+                            <li>
+                                Syllbus
+                            </li>
+                            <li>
+                                Schollarship
+                            </li>
+                            <li>
+                                Sport section
+                            </li>
+                            <li>
+                                Certification Section
+                            </li>
+                            <li>
+                                Library
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-panel" style="width: 50%">
+            <div class="box">
+                <table>
+                    <tr>
+                        <th rowspan="2">
+                            Name
+                        </th>
+                        <th rowspan="2">
+                            Day of pay
+                        </th>
+                        <th rowspan="2">
+                            Day of row
+                        </th>
+                        <th colspan="3">
+                            Date
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            Day
+                        </th>
+                        <th>
+                            Month
+                        </th>
+                        <th>
+                            Year
+                        </th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">
+                            1
+                        </td>
+                        <td>
+                            1000
+                        </td>
+                        <td>
+                            ABC
+                        </td>
+                        <td>
+                            14
+                        </td>
+                        <td>
+                            Jan
+                        </td>
+                        <td>
+                            2023
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1000
+                        </td>
+                        <td>
+                            ABC
+                        </td>
+                        <td>
+                            14
+                        </td>
+                        <td>
+                            Jan
+                        </td>
+                        <td>
+                            2023
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">
+                            2
+                        </td>
+                        <td>
+                            1000
+                        </td>
+                        <td>
+                            ABC
+                        </td>
+                        <td>
+                            14
+                        </td>
+                        <td>
+                            Jan
+                        </td>
+                        <td>
+                            2023
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1000
+                        </td>
+                        <td>
+                            ABC
+                        </td>
+                        <td>
+                            14
+                        </td>
+                        <td>
+                            Jan
+                        </td>
+                        <td>
+                            2023
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

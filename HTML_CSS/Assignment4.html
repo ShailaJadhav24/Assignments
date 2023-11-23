@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Assignment4
+    </title>
+    <style>
+        .flex-container {
+            display: flex;
+        }
+
+        .first-parent {
+            background-color: antiquewhite;
+            height: 200px;
+            width: 100%;
+        }
+
+        .left-parent {
+            width: 40%;
+            background-color: lightgreen;
+            height: 600px;
+        }
+
+        .right-parent {
+            width: 60%;
+            background-color: skyblue;
+            height: 600px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="first-parent">
+            <div class="flex-container" style="justify-content: space-between; ">
+                <div style="width: 15%;height: 200px; background-color: #d98c8c;">
+
+                </div>
+                <div style="height: 200px;  width: 30%;background-color: #d98c8c;">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="flex-container">
+        <div class="left-parent">
+            <div class="flex-container" style="padding: 10px;">
+                <div style="width:50%; background-color: violet;height: 100px; margin: 10px;">
+                </div>
+                <div style="width:50%;background-color: violet;height: 100px;margin: 10px;">
+                </div>
+            </div>
+            <div class=" flex-container" style="padding: 10px;">
+                <div style="width:100%;background-color: white;height: 100px;margin:10px;">
+                </div>
+            </div>
+            <div class="flex-container" style="padding: 10px;">
+                <div style="width:30%;background-color: red;height:100px;margin:10px;">
+                </div>
+                <div style="width:30%;background-color: red;height: 100px;margin:10px;">
+                </div>
+                <div style="width:30%;background-color: red;height: 100px;margin:10px">
+                </div>
+            </div>
+
+            <div class="flex-container " style="padding:10px;">
+                <div style="width:50%;background-color:#d98c8c;height: 100px; margin:10px;">
+                </div>
+                <div style="width:50%;background-color:#d98c8c;height:100px; margin:10px;">
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="right-parent">
+            <div class="flex-container">
+                <div style="width:100%;background-color:#bb7373;height: 200px;margin:10px">
+                    <div style="border:10px solid red; width: 30%;height: 180px;margin-left: auto;">
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div style="width:100%;background-color: aqua;height:200px;margin:10px">
+                    <div class="flex-container" style="justify-content:space-around;" >
+                        <div style="background-color: #7b6565;width:30%;height:180px; margin:10px">
+
+                        </div>
+                        <div style="background-color: #7b6565;width:30%;height:180px; margin:10px">
+
+                        </div>
+                        <div style="background-color: #7b6565;width:30%;height:180px; margin:10px">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

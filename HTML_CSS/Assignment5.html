@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Assignment5
+    </title>
+    <style>
+        .flex-container {
+            display: flex;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        .sqaure {
+            width: 90%;
+            height: 200px;
+            background-color: #bbb;
+            margin: 10px;
+        }
+
+        .circle {
+            height: 200px;
+            width: 90%;
+            background-color: #bbb;
+            border-radius: 50%;
+            margin: 10px;
+
+        }
+
+        .yellowBox {
+            width: 20%;
+            background-color: greenyellow;
+            height: 260px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div style="width:33.33%; background-color:bisque;height:200px;">
+            <div style="width:97%;height:185px; border: 8px solid orange;">
+
+            </div>
+        </div>
+        <div style="width:33.33%;background-color:burlywood;height:200px;">
+        </div>
+        <div style="width:33.33%;background-color:red; height:200px;">
+        </div>
+    </div>
+    <div class="flex-container">
+        <div style="width:33%; height: 500px;">
+            <div class="flex-container">
+                <div style="width:50%; background-color:blueviolet;height: 500px;">
+                    <div class="flex-container" style="flex-direction:column;    align-items: center;
+                    justify-content: center;">
+                        <div class="circle">
+                        </div>
+                        <div class="sqaure">
+                        </div>
+                    </div>
+
+                </div>
+                <div style="width:50%; background-color:gray;height: 500px;">
+                    <div class="flex-container"
+                        style="flex-direction:column; align-items: center; justify-content:center;">
+                        <div class="circle">
+                        </div>
+                        <div class="sqaure">
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div style="width:47%; height: 500px;">
+            <div class="flex-container" style="flex-direction: column;">
+                <div style="width:100%;background-color:rgb(242, 178, 178);height: 200px;">
+                    <div style="width:95%;background-color:skyblue;height: 160px;margin: 15px;">
+
+                    </div>
+                </div>
+                <div style="width:100%;background-color: aqua;height: 300px;">
+                    <div class="flex-container" style="justify-content: space-around;align-items: center;height: 300px;">
+                        <div class="yellowBox">
+                        </div>
+                        <div class="yellowBox">
+                        </div>
+                        <div class="yellowBox">
+
+                        </div>
+                        <div class="yellowBox">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div style="width:20%; height: 500px;background-color:green;">
+            <div class="flex-container" style="width:100%; height: 500px;justify-content: center;align-items: center;">
+                <div style="width:100%;background-color: gray; height:300px;margin:10px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
