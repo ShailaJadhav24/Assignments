@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Assignment13
+    </title>
+    <style>
+        .flex-container {
+            display: flex;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        .form-inline {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+        }
+
+        .form-inline label {
+            margin: 5px 10px 5px 0;
+        }
+
+        .form-inline input {
+            vertical-align: middle;
+            margin: 5px 10px 5px 0;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        .inputBox {
+            white-space: nowrap;
+            width: 20%;
+            border: 1px solid black;
+            margin: 15px;
+            padding: 10px;
+        }
+
+        .form-container {
+            display: flex;
+            background-color: grey;
+            margin: 5px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .form-group {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .form-group label {
+            width: 250px;
+            margin-right: 10px;
+            text-align: right;
+        }
+
+        .form-group input {
+            flex: 1;
+            padding: 5px;
+            justify-content: space-around
+        }
+
+        .input-label-section {
+            border: 1px solid black;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        form {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div
+        style="background-color:gray; border-radius:15px 15px 0px 0px;justify-content: center;text-align: center;padding: 10px;">
+        <h1 style="margin:10px;">
+            Form
+        </h1>
+    </div>
+
+    <div class="form-container">
+        <form>
+            <div class="form-group">
+                <div class="input-label-section" style="width:25%;">
+                    <label for="name">Name </label>
+                    <input type="text" id="name" name="name" placeholder="Full Name">
+                </div>
+                <div class="input-label-section" style="width: 25%;">
+                    <label for="email">Email </label>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-label-section" style="width: 25%;">
+                    <label for="Phone Number"> Phone Number</label>
+                    <input type="text" id="Phone Number" name="Phone Number" placeholder="Contact">
+                </div>
+                <div class="input-label-section" style="width: 25%;">
+                    <label for="Date">Date of Birth</label>
+                    <input type="Date" id="Birthday" name="Date of Birth" placeholder="dd/mm/yyyy">
+                </div>
+            </div>
+            <div>
+
+                <div class="form-group">
+                    <div class="input-label-section" style="width: 100%;">
+                        <label for="gender"><b>Gender</b></label> <br>
+                        <label for="male" style="margin-right: 0px;">Male</label>
+                        <input type="radio" id="male" name="gender" value="Male" style="margin-right: 20px;">
+                        <label for="female" style="margin-right: 0px;">Female</label>
+                        <input type="radio" id="female" name="gender" value="Female" style="margin-right:20px;">
+                        <label for="other" style="margin-right: 0px;"> Other</label>
+                        <input type="radio" id="other" name="gender" value="Other" style="margin-right: 20px;">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-label-section" style="width: 100%;">
+                    <label for="Education"> Education</label>
+                    <select id="Education" name="eduction">
+                        <option value="BBA">BBA</option>
+                        <option value="MBA">MBA</option>
+                        <option value="Msc">MSC</option>
+                        <option value="Bsc">BSC</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <div class="input-label-section" style="width: 100%;">
+                    <label for="Remark"> Remark</label> <br>
+                    <textarea id="remark" name="Remark" rows="4" cols="100">Please type remark here</textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="form-group" style="justify-content: center; align-items:center; margin: 10px; width: 99%;">
+        <button type="button" style="margin-right: 1%;"> Submit </button>
+        <button type="button">Reset</button>
+    </div>
+
+</body>
+
+</html>
